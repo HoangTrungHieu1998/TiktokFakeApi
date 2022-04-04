@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiktok", "Tiktok\Tiktok.csproj", "{6EAF3F3E-B9BC-4D3F-8395-0A9BB9A696C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiktok.Data", "Tiktok.Data\Tiktok.Data.csproj", "{45AD8699-2D45-41CA-BF3A-1A5CC2F6A712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiktok.Service", "Tiktok.Service\Tiktok.Service.csproj", "{E94171BD-41E3-4FB4-B5FA-3DBFFD2670C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiktok.Model", "Tiktok.Model\Tiktok.Model.csproj", "{C745F1B2-02D7-45DB-9FCE-A3CB5126B43C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EAF3F3E-B9BC-4D3F-8395-0A9BB9A696C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAF3F3E-B9BC-4D3F-8395-0A9BB9A696C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAF3F3E-B9BC-4D3F-8395-0A9BB9A696C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAF3F3E-B9BC-4D3F-8395-0A9BB9A696C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AD8699-2D45-41CA-BF3A-1A5CC2F6A712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AD8699-2D45-41CA-BF3A-1A5CC2F6A712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AD8699-2D45-41CA-BF3A-1A5CC2F6A712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AD8699-2D45-41CA-BF3A-1A5CC2F6A712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94171BD-41E3-4FB4-B5FA-3DBFFD2670C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94171BD-41E3-4FB4-B5FA-3DBFFD2670C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94171BD-41E3-4FB4-B5FA-3DBFFD2670C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94171BD-41E3-4FB4-B5FA-3DBFFD2670C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C745F1B2-02D7-45DB-9FCE-A3CB5126B43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C745F1B2-02D7-45DB-9FCE-A3CB5126B43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C745F1B2-02D7-45DB-9FCE-A3CB5126B43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C745F1B2-02D7-45DB-9FCE-A3CB5126B43C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D069C4DD-6710-4636-979F-B98FE4D7F0C0}
+	EndGlobalSection
+EndGlobal
