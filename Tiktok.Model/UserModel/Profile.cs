@@ -13,6 +13,7 @@ namespace Tiktok.Model.UserModel
         public int Like { get; set; }
         public string Image { get; set; }
         public string Description { get; set; }
+        public string LoginName { get; set; }
 
         public List<UserVideo> UserVideo { get; set; }
     }

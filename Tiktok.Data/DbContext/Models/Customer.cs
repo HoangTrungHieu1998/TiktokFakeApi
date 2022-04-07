@@ -10,6 +10,8 @@ namespace Tiktok.Data.DbContext.Models
         public string UserName { get; set; }
         public string Description { get; set; }
         public string CustomerImg { get; set; }
+        public string LoginName { get; set; }
+        public string LoginPassword { get; set; }
         public virtual ICollection<Video> Video { get; set; }
         public virtual ICollection<Like> Like { get; set; }
         public virtual ICollection<Comment> Comment { get; set; }

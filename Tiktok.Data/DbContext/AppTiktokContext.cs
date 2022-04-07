@@ -8,7 +8,7 @@ namespace Tiktok.Data.DbContext
 {
     public class AppTiktokContext : Microsoft.EntityFrameworkCore.DbContext
     {
-        public AppTiktokContext() 
+        public AppTiktokContext()
         {
         }
 
@@ -30,5 +30,17 @@ namespace Tiktok.Data.DbContext
         public DbSet<Like> Like { get; set; }
         public DbSet<Tag> Tag { get; set; }
         public DbSet<Video> Video { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+
+        //    modelBuilder.Entity<Customer>()
+        //            .Property(s => s.CustomerId).HasD
+        //            .HasDefaultValueSql("GETDATE()");
+
+        //    modelBuilder.Entity<Customer>()
+        //        .Property(u => u.CustomerId)
+        //        .HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
+        //}
     }
 }
